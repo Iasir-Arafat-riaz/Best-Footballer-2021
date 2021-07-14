@@ -87,6 +87,9 @@ p {
 /* Star Player section */
 
 /* //highlights Section */
+.highlights-section{
+  margin-bottom: 150px;
+}
 
 .highlights {
   /* display: flex;
@@ -142,7 +145,36 @@ footer {
   width: 32px;
   color: #969bab;
 }
+/* bonus part style */
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
 
+
+}
+
+.form-login input {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  padding: 5px 15px;
+
+}
+
+.form-login button {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  color: #ffffff;
+}
+.form-container{
+
+}
+h3{
+  color: #e02c6d;
+}
 /* Using media query for all device responsive */
 
 /* Responsive for mini Screen */
