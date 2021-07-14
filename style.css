@@ -4,27 +4,46 @@ body {
   background-color: #ffffff;
 }
 .banner-section {
+  background-color: #2d25a0;
+  margin-bottom: 70px;
+  position: relative;
+}
+.banner-info {
   display: flex;
   justify-content: space-between;
-  background-color: #2d25a0;
+
   margin: 0;
-  padding: 153px 140px 86px 156px;
+  padding: 153px 140px 86px 140px;
 }
-
-.banner-info {
-  width: 485px;
+.banner-title{
+    position: relative;
+    width: 485px;
   height: 230px;
+   
 }
 
-.banner-info h1 {
+
+.banner-title h1 {
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
+  
 }
 
 .top-banner img {
-  width: 556px;
+  width: 500.01px;
   height: 438px;
+  left: 1299.01px;
+  top: 153px;
+}
+/* Common Class & tags */
+.common-button {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  color: #ffffff;
+  margin-top: 0;
+  position: absolute;
+  bottom: 150px;
 }
 
 /* Second Section */
